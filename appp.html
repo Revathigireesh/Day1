@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        height: 100vh; /* Full viewport height */
+        background-color: rgb(10, 190, 130);
+        display: flex;
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+    }
+    h2{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .container {
+        width: 60vh;
+        height: 80vh;
+        background-color: white;
+        padding: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    input {
+        display: flex;
+        border: 2px solid transparent;
+        border-radius: 2px;
+        align-items: center;
+        flex-direction: row;
+        padding: 18px;
+        background-color: rgb(229, 232, 236);
+        width: 50vh;
+        font-size: 20px;
+    }
+    label{
+        font-weight: 500;
+        font-size: 20px;
+    }
+    
+    input:focus {
+        outline: none;
+    }
+    button{
+        padding: 15px;
+        background-color: rgb(22, 7, 90);
+        color:aliceblue;
+        border:none;
+        border-radius:20px;
+        width: 25vh;
+        margin-bottom: 15px;
+        margin-top: 20px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    button:hover{
+        background-color: rgb(171, 12, 12);
+        color:aliceblue;
+    }
+    a{
+        color:rgb(11, 43, 161);
+        font-weight: 900;
+        margin-top:10px;
+        margin-right: 55%;
+       
+    }
+</style>
+<body>
+    <div class="container">
+        <h1>Login Form</h1>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" name="useName"><br>
+            <label for="email">Email:</label>
+            <input type="email" name="Email"><br>
+            <label for="MobilNo">Mobile:</label>
+            <input type="text" name="MobilNo">
+        </form>
+        <a href="www.google.com">Forgot password?</a>
+        <button type="submit">submit</button>
+    </div>
+</body>
+</html>
