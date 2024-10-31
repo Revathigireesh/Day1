@@ -1,0 +1,17 @@
+body{
+    background-color: white  !important;
+    margin: 0;
+
+}
+.navbar-brand{
+    font-size: 12rem;
+    font-style: bold;
+    color: aliceblue  !important;
+}
+.nav-link{
+    color: aliceblue  !important;
+}
+.navbar-toggler{
+    border-color: white  !important;
+
+}
