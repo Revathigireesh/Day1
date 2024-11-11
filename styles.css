@@ -1,17 +1,44 @@
-body{
-    background-color: white  !important;
-    margin: 0;
 
+.nav{
+    display: flex;
+    justify-content: flex-end; /* Places elements at opposite ends */
+    align-items: center;
 }
 .navbar-brand{
-    font-size: 16rem;
     font-style: bold;
-    color: aliceblue  !important;
-}
-.nav-link{
-    color: aliceblue  !important;
+    color: rgb(242, 242, 242)  !important;
 }
 .navbar-toggler{
-    border-color: white  !important;
+    border-color: rgb(26, 25, 25)  !important; 
+}
+.navbar-nav{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 100%;
+    font-weight: 400; 
+    padding: 15px; 
+}
+.nav-link{
+    color: rgb(249, 249, 249)  !important;
+    font-size: 100%;
+    padding: 15px;
+}
+.button{
+    margin-left: auto; /* Pushes the button to the far right */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
 
+}
+/* Header Section for Additional Styling */
+.header {
+    margin-top: 50px;
+    height: 400px; /* Height to make the header area visible */
+    background-image: url('sale.png');
+    background-repeat: no-repeat;
+    background-position: left; /* Aligns background image to the right */
+    display: flex;
+    justify-content: flex-end;
 }
